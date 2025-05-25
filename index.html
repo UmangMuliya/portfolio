@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umang Y. Muliya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <h2 class="section-heading">About me</h2>
+        <div class="about-content">
+            <img src="assets/profile.JPG" alt="Profile Photo" class="profile-pic"/>
+            <p>
+                Hi! I'm Umang Y. Muliya, a passionate web developer focused on building clean and user-friendly websites.  
+                I know little bit about HTML, CSS, and JavaScript for frontend, And i'm Passionate for Php, Laravel at the backend side, along with Sql, MySQL, PostgreSql. Whether it's freelancing projects or joining a dynamic team,
+                I'm always eager to create something great and learn more along the way.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-heading">Skills</h2>
+        <div class="skill-content">
+            <div class="skill">
+                <span>HTML</span>
+                <div class="skill-bar"><div class="skill-level html"></div></div>
+            </div>
+            <div class="skill">
+                <span>CSS</span>
+                <div class="skill-bar"><div class="skill-level css"></div></div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="skill-bar"><div class="skill-level js"></div></div>
+            </div>
+            <div class="skill">
+                <span>Laravel Php</span>
+                <div class="skill-bar"><div class="skill-level php"></div></div>
+            </div>
+            <div class="skill">
+                <span>Sql, MySQL, PostgreSql</span>
+                <div class="skill-bar"><div class="skill-level sql"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-heading">Projects</h2>
+        <div class="project-content">
+            <div class="project-card">
+                <h3>My Blog Site</h3>
+                <p>A Simple Blog site with Admin,User panel and Subscription Using Razorpay.</p>
+                <div class="tech">
+                    <strong>Technologies</strong>
+                    <ul>
+                        <li>Html</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap & custom CSS</li>
+                        <li>Laravel</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Raghuveer Enterprise</h3>
+                <p>A Simple E-Commerce Project with Admin,User Panel along with cart feature and payment via Razorpay or COD</p>
+                <div class="tech">
+                    <strong>Technologies</strong>
+                    <ul>
+                        <li>Html</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap & custom CSS</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <h2 class="section-heading">Resume</h2>
+        <p>You can View or Download My Resume from below</p> <br>
+        <a href="assets/Resume.pdf" target="_blank" class="btn">View / Download Resume</a>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-heading">Contact Me</h2>
+        <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+            <p id="formStatus" style="margin-top: 1rem;"></p>
+          </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
